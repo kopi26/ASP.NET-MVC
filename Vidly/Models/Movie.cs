@@ -14,13 +14,18 @@ namespace Vidly.Models
        [StringLength(255)]
         public string Name { get; set; }
         
+        [Required]
         [Display(Name="Released Date")]
         public DateTime ReleasedDate { get; set; }
       
         public DateTime DateAdded { get; set; }
         
         [Display(Name="Number In Stock")]
+        [Required]
+        [Range(1,20)]
         public byte NoInStocks { get; set; }
+
+        public byte NumberAvailable { get; set; }
 
         public GenreType GenreType { get; set; }
 

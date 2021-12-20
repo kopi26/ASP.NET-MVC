@@ -140,3 +140,15 @@ E:\Interview\ASP.NET\Vidly\bin\System.Web.Http.xml
 E:\Interview\ASP.NET\Vidly\bin\System.Web.Http.WebHost.xml
 E:\Interview\ASP.NET\Vidly\bin\AutoMapper.dll
 E:\Interview\ASP.NET\Vidly\bin\AutoMapper.xml
+E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+E:\Interview\ASP.NET\Vidly\bin\Glimpse.Ado.dll
+E:\Interview\ASP.NET\Vidly\bin\Glimpse.AspNet.dll
+E:\Interview\ASP.NET\Vidly\bin\Glimpse.Core.dll
+E:\Interview\ASP.NET\Vidly\bin\Glimpse.EF6.dll
+E:\Interview\ASP.NET\Vidly\bin\Glimpse.Mvc5.dll
+E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddRentalMovie.resources
+E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddNumberAvaiabilityInMovie.resources
+E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddRentalMovie1.resources
+E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddRentalMovie2.resources
+E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddNumberAvaiabilityCountToMovie.resources

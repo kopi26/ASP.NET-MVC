@@ -7,9 +7,11 @@ using System.Web.Mvc;
 using Vidly.Models;
 using Vidly.ViewModels;
 using System.Data.Entity.Validation;
+using System.Runtime.Caching;
 
 namespace Vidly.Controllers
 {
+    [AllowAnonymous]
     public class CustomersController : Controller
     {
         private ApplicationDbContext _context;
@@ -69,10 +71,17 @@ namespace Vidly.Controllers
         }
 
         // GET: Customers
+        //[Authorize]
         public ViewResult Index()
         {
-            //var customer = _context.Customers.Include(c => c.MembershipType).ToList();
-            //return View(customer);
+            /*var customer = _context.Customers.Include(c => c.MembershipType).ToList();
+            return View(customer);*/
+
+            //Caching
+            if (MemoryCache.Default["GenreTypes"] == null)
+                MemoryCache.Default["GenreTypes"] = _context.GenreTypes.ToList();
+
+            var genreTypes = MemoryCache.Default["GenreTypes"] as IEnumerable<GenreType>;
 
             return View();
         }
