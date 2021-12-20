@@ -152,3 +152,4 @@ E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddNumberAvaiabilityInMovi
 E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddRentalMovie1.resources
 E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddRentalMovie2.resources
 E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddNumberAvaiabilityCountToMovie.resources
+E:\Interview\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
